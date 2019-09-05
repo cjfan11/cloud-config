@@ -8,10 +8,10 @@ spring:
 security:
   oauth2:
     resource:
-      user-info-uri: http://localhost:55555/users/current
+      user-info-uri: http://localhost:5555/users/current
     client:
       id: client_2
       client-secret: 123456
-      access-token-uri: http://localhost:55555/oauth/token
+      access-token-uri: http://localhost:5555/oauth/token
       grant-type: client_credentials,password
       scope: server
